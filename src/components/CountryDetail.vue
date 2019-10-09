@@ -3,6 +3,7 @@
     <h3>{{country.name}}</h3>
     <p>Capital: {{country.capital}}</p>
     <p>Population: {{country.population}}</p>
+    <img :src="country.flag" alt="">
   </div>
 </template>
 
@@ -14,4 +15,7 @@ export default {
 </script>
 
 <style lang="css" scoped>
+img {
+  max-width: 200px;
+}
 </style>
