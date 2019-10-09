@@ -1,9 +1,11 @@
 <template lang="html">
-  <div>
-    <h1>Countries</h1>
+<div>
+  <h1>Countries</h1>
+  <div class="main-container">
     <countries-list :countries='countries'></countries-list>
     <country-detail :country='selectedCountry'></country-detail>
   </div>
+</div>
 </template>
 
 <script>
@@ -38,4 +40,7 @@ export default {
 </script>
 
 <style lang="css" scoped>
+.main-container {
+    display: flex;
+  }
 </style>
