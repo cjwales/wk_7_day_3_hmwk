@@ -17,4 +17,7 @@ export default {
 </script>
 
 <style lang="css" scoped>
+li {
+  list-style: none;
+}
 </style>
