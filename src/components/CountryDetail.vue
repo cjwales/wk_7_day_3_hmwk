@@ -15,6 +15,11 @@ export default {
 </script>
 
 <style lang="css" scoped>
+div {
+  border: 2px solid black;
+  max-height: 260px;
+  background-color: silver;
+}
 img {
   max-width: 200px;
 }
